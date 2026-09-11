@@ -57,12 +57,12 @@
 
         <label>
             ФИО<br />
-            <input name="field_name" placeholder="Введите ФИО" />
+            <input name="field_name" type="text" pattern="^[А-Яа-я\s]+$" placeholder="Введите ФИО" required />
         </label><br />
 
         <label>
-            Телефон:<br />
-            <input name="field_tel" type="tel" placeholder="Введите номер телефона" />
+            Телефон (цифры и пробелы):<br />
+            <input name="field_tel" type="tel" pattern="^[0-9\s]*$" placeholder="Введите номер телефона" required />
         </label><br />
 
 
@@ -73,11 +73,11 @@
 
         <label>
             Дата рождения:<br />
-            <input name="field_date" type="date" />
+            <input name="field_date" type="date" required />
         </label><br />
 
         Пол<br />
-        <label><input type="radio" name="radio-group-1" value="male" />
+        <label><input type="radio" name="radio-group-1" checked="checked" value="male" />
             Мужской</label>
         <label><input type="radio" name="radio-group-1" value="female" />
             Женский</label><br />
@@ -105,7 +105,7 @@
             <textarea name="field-name-2" placeholder="Напишите о себе, своем опыте"></textarea>
         </label><br />
 
-        <label><input type="checkbox" checked="checked" name="check-1" />
+        <label><input type="checkbox" name="check-1" required/>
             С контрактом ознакомлен (а)</label><br />
 
         <input type="submit" value="Сохранить" />
