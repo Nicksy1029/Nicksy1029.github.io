@@ -1,0 +1,112 @@
+.logo {
+    float: left;
+    border-radius: 50%;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.zag {
+    float: left;
+    clear: right;
+    vertical-align: middle;
+}
+
+nav {
+    float: right;
+
+}
+
+body {
+    margin: 0;
+    font-size: 12pt;
+    font-family: "Courier New", monotype;
+    font-weight: bold;
+    line-height: 120%
+}
+
+header, footer {
+    width: 100%;
+    background-color: rgb(69, 69, 220);
+    height: 130px;
+    padding: 10px;
+}
+
+.foot-text {
+    font-weight: bold;
+    font-size: 14pt;
+    line-height: 120%;
+    padding-top: 35px;
+    text-align: left;
+}
+
+.conteiner {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.knop {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.navig {
+    display: block;
+    padding: 20px;
+    background-color: #cbafaf;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(208, 109, 109);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #38ea97;
+}
+
+.centred-list {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 20px;
+    margin: 0;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered-list li {
+    margin-bottom: 5px;
+}
+
+.centered-table {
+    width: 65%;
+    margin: 20px auto;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.centered-form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+

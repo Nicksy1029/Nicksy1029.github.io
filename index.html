@@ -4,112 +4,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Задание 1</title>
+    <title>Задание 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h2>Список</h2>
-    <ul>
-        <li id="first"><a href="https://www.kubsu.ru/">КубГУ (В чем отличие от следующего должно быть?)</a></li>
-        <li><a href="https://www.kubsu.ru/">КубГУ https</a></li>
-        <li><a href="https://github.com/Nicksy1029">
-                <picture><img src="котик.jpg" alt="котик"></picture>
-            </a></li>
-        <li><a href="/about">Внутренняя страница</a></li>
-        <li><a href="/">Главная страница</a></li>
-        <li><a href="#first">ссылка на первый пункт</a></li>
-        <li><a href="page.html?param1=value1&param2=value2&param3=value3">ссылка с тремя параметрами</a></li>
-        <li><a href="page.html?id=calue">ссылка с параметром id</a></li>
-        <li><a href="./about">Относительная страница в текущем каталоге</a></li>
-        <li><a href="./about/team">Относительная страница в каталоге about</a></li>
-        <li><a href="../about">Относительная страница в каталоге уровнем выше</a></li>
-        <li><a href="../../about">Относительная страница в каталоге двумя уровнями выше</a></li>
-        <li>
-            <p>Вот контекстная <a href="https://github.com/Nicksy1029">ссылка</a> внутри абзаца</p>
-        </li>
-        <li><a
-                href="https://ru.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic#%D0%A1%D1%8E%D0%B6%D0%B5%D1%82">Ссылку
-                на фрагмент страницы стороннего сайта</a></li>
-        <li><img src="image.jpg" usemap="#workmap" alt="Картинка с зонами" width="300" height="400"></li>
-        <li><a href="">пустой href</a></li>
-        <li><a>без href</a></li>
-        <li><a href="https://example.com/" rel="nofollow">Ссылка по которой запрещен переход поисковикам</a></li>
-        <li>
-            <noindex><a href="https://example.com/">Ссылка запрещенная для индексации поисковиками</a></noindex>
-        </li>
-        <ol>
-            <li><a href="https://example.com/">title</a></li>
-            <li><a href="https://example.com/">title</a></li>
-            <li><a href="https://example.com/">title</a></li>
-        </ol>
-        <li><a href="ftp://login:password@ftp.example.com/files/document.pdf">ссылка на файл на сервере FTP с
-                авторизацией</a></li>
-    </ul>
+    <header>
+        <div class="conteiner">
+            <img class="logo" src="logo.jpg" alt="Наш лого" />
+            <h1 class="zag">Задание 2</h1>
+            <nav>
+                <ul>
+                    <li class="knop"><a href="#" class="navig">Список</a></li>
+                    <li class="knop"><a href="#" class="navig">Таблица</a></li>
+                    <li class="knop"><a href="#" class="navig">Форма</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="conteiner">
+            <h2>Список</h2>
+            <ul class="centred-list">
+                <li id="first"><a href="https://www.kubsu.ru/">КубГУ (В чем отличие от следующего должно быть?)</a></li>
+                <li><a href="https://www.kubsu.ru/">КубГУ https</a></li>
+                <li><a href="https://github.com/Nicksy1029">
+                        <picture><img src="котик.jpg" alt="котик"></picture>
+                    </a></li>
+                <li><a href="/about">Внутренняя страница</a></li>
+                <li><a href="/">Главная страница</a></li>
+                <li><a href="#first">ссылка на первый пункт</a></li>
+                <li><a href="page.html?param1=value1&param2=value2&param3=value3">ссылка с тремя параметрами</a></li>
+                <li><a href="page.html?id=calue">ссылка с параметром id</a></li>
+                <li><a href="./about">Относительная страница в текущем каталоге</a></li>
+                <li><a href="./about/team">Относительная страница в каталоге about</a></li>
+                <li><a href="../about">Относительная страница в каталоге уровнем выше</a></li>
+                <li><a href="../../about">Относительная страница в каталоге двумя уровнями выше</a></li>
+                <li>
+                    <p>Вот контекстная <a href="https://github.com/Nicksy1029">ссылка</a> внутри абзаца</p>
+                </li>
+                <li><a
+                        href="https://ru.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic#%D0%A1%D1%8E%D0%B6%D0%B5%D1%82">Ссылку
+                        на фрагмент страницы стороннего сайта</a></li>
+                <li><img src="image.jpg" usemap="#workmap" alt="Картинка с зонами" width="300" height="400"></li>
+                <li><a href="">пустой href</a></li>
+                <li><a>без href</a></li>
+                <li><a href="https://example.com/" rel="nofollow">Ссылка по которой запрещен переход поисковикам</a>
+                </li>
+                <li>
+                    <noindex><a href="https://example.com/">Ссылка запрещенная для индексации поисковиками</a></noindex>
+                </li>
+                <ol>
+                    <li><a href="https://example.com/">title</a></li>
+                    <li><a href="https://example.com/">title</a></li>
+                    <li><a href="https://example.com/">title</a></li>
+                </ol>
+                <li><a href="ftp://login:password@ftp.example.com/files/document.pdf">ссылка на файл на сервере FTP с
+                        авторизацией</a></li>
+            </ul>
 
-    <map name="workmap">
-        <area shape="rect" coords="30,30,200,150" href="https://kubsu.ru/" alt="Зона 1">
-        <area shape="rect" coords="0,250,200,400" href="https://kubsu.ru/" alt="Зона 2">
-        <area shape="circle" coords="250,200,60" href="https://example.com/" alt="Зона 3">
-    </map>
+            <map name="workmap">
+                <area shape="rect" coords="30,30,200,150" href="https://kubsu.ru/" alt="Зона 1">
+                <area shape="rect" coords="0,250,200,400" href="https://kubsu.ru/" alt="Зона 2">
+                <area shape="circle" coords="250,200,60" href="https://example.com/" alt="Зона 3">
+            </map>
 
-    <h2>Форма</h2>
-    <form action="/" method="POST">
+            <h2>Таблица</h2>
+            <table class="centered-table">
+                <tr>
+                    <th>Колонка 1</th>
+                    <th>Колонка 2</th>
+                    <th>Колонка 3</th>
+                    <th>Колонка 4</th>
+                </tr>
+                <tr>
+                    <td colspan="2">Ячейка 11 и ячейка 12</td>
+                    <td>Ячейка 13</td>
+                    <td>Ячейка 14</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Ячейка 21 и ячейка 22 и ячека 23</td>
+                    <td>Ячейка 24</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Ячейка 31 и ячека 32 и ячейка 33 и ячейка 34</td>
+                </tr>
+                <tr>
+                    <td>Ячейка 21</td>
+                    <td>Ячейка 22</td>
+                    <td>Ячейка 21</td>
+                    <td>Ячейка 22</td>
+                </tr>
+                <tr>
+                    <td>Ячейка 21</td>
+                    <td>Ячейка 22</td>
+                    <td>Ячейка 21</td>
+                    <td>Ячейка 22</td>
+                </tr>
+                <tr>
+                    <td>Ячейка 21</td>
+                    <td>Ячейка 22</td>
+                    <td>Ячейка 21</td>
+                    <td>Ячейка 22</td>
+                </tr>
+            </table>
 
-        <label>
-            ФИО<br />
-            <input name="field_name" placeholder="Введите ФИО" />
-        </label><br />
+            <h2>Форма</h2>
+            <form class="centered-form" action="/" method="POST">
 
-        <label>
-            Телефон:<br />
-            <input name="field_tel" type="tel" placeholder="Введите номер телефона" />
-        </label><br />
+                <label>
+                    ФИО<br />
+                    <input name="field_name" type="text" pattern="^[А-Яа-я\s]+$" placeholder="Введите ФИО" required />
+                </label><br />
+
+                <label>
+                    Телефон (цифры и пробелы):<br />
+                    <input name="field_tel" type="tel" pattern="^[0-9\s]*$" placeholder="Введите номер телефона"
+                        required />
+                </label><br />
 
 
-        <label>
-            Email:<br />
-            <input name="field_email" type="email" placeholder="Введите email" />
-        </label><br />
+                <label>
+                    Email:<br />
+                    <input name="field_email" type="email" placeholder="Введите email" />
+                </label><br />
 
-        <label>
-            Дата рождения:<br />
-            <input name="field_date" type="date" />
-        </label><br />
+                <label>
+                    Дата рождения:<br />
+                    <input name="field_date" type="date" required />
+                </label><br />
 
-        Пол<br />
-        <label><input type="radio" name="radio-group-1" value="male" />
-            Мужской</label>
-        <label><input type="radio" name="radio-group-1" value="female" />
-            Женский</label><br />
+                Пол<br />
+                <label><input type="radio" name="radio-group-1" checked="checked" value="male" />
+                    Мужской</label>
+                <label><input type="radio" name="radio-group-1" value="female" />
+                    Женский</label><br />
 
-        <label>
-            Любимый язык программирования:
-            <br />
-            <select name="field-name-4[]" multiple="multiple">
-                <option value="Значение1">Pascal</option>
-                <option value="Значение2">C</option>
-                <option value="Значение3">C++</option>
-                <option value="Значение3">Python</option>
-                <option value="Значение3">C#</option>
-                <option value="Значение3">Java</option>
-                <option value="Значение3">JavaScript</option>
-                <option value="Значение3">Ruby</option>
-                <option value="Значение3">Rust</option>
-                <option value="Значение3">Kotlin</option>
-                <option value="Значение3">PHP</option>
-            </select>
-        </label><br />
+                <label>
+                    Любимый язык программирования:
+                    <br />
+                    <select name="field-name-4[]" multiple="multiple">
+                        <option value="Значение1">Pascal</option>
+                        <option value="Значение2">C</option>
+                        <option value="Значение3">C++</option>
+                        <option value="Значение3">Python</option>
+                        <option value="Значение3">C#</option>
+                        <option value="Значение3">Java</option>
+                        <option value="Значение3">JavaScript</option>
+                        <option value="Значение3">Ruby</option>
+                        <option value="Значение3">Rust</option>
+                        <option value="Значение3">Kotlin</option>
+                        <option value="Значение3">PHP</option>
+                    </select>
+                </label><br />
 
-        <label>
-            Биография:<br />
-            <textarea name="field-name-2" placeholder="Напишите о себе, своем опыте"></textarea>
-        </label><br />
+                <label>
+                    Биография:<br />
+                    <textarea name="field-name-2" placeholder="Напишите о себе, своем опыте"></textarea>
+                </label><br />
 
-        <label><input type="checkbox" checked="checked" name="check-1" />
-            С контрактом ознакомлен (а)</label><br />
+                <label><input type="checkbox" name="check-1" required />
+                    С контрактом ознакомлен (а)</label><br />
 
-        <input type="submit" value="Сохранить" />
-    </form>
+                <input type="submit" value="Сохранить" />
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="conteiner">
+            <p class="foot-text">(c) Горбатовский Михаил</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
